@@ -293,16 +293,9 @@ header .links ul li a{
 
 .col .service {
   display: flex;
-  
+  flex-direction: column;
+  text-align: center;
   margin-bottom: 50px;
-}
-
-@media (max-width: 767px) {
-  .col .service {
-    flex-direction: column;
-    text-align: center;
-    
-  }
 }
 
 .service i {

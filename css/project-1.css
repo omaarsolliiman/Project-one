@@ -285,9 +285,10 @@ header .links ul li a{
 }
 
 .services .service-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+display: flex;
+  align-items: center;
+  justify-contant: space-evenly;
+  flex-wrap: wrap;
   margin-top: 100px;
 }
 

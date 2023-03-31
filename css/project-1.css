@@ -115,7 +115,7 @@ header .links .icon span {
   background: var(--dark-gray);
   border-radius: 2px;
   position: absolute;
-  transition: 0.2s ease-in
+  transition: 1s ease-in
 }
 
 header .links .icon .line-1 {
@@ -293,6 +293,7 @@ header .links ul li a{
 
 .col .service {
   display: flex;
+  
   margin-bottom: 50px;
 }
 
